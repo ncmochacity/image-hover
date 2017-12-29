@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Subtitle</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+        <main role="mainContent">
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-3">Image Hover Demo</h1>
+              <p class="lead">This is a Bootstrap-powered Image Hover Demo. Play around and have fun!</p>
+            </div>
+          </div>
+          <div class="container-fluid portfolio">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="img/christmas.jpg" >
+                <div class="overlay">
+                  <h5>Jingle Bells</h5>
+                  <p>Christmas holidays warrant the perfect timing for decoration shopping</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="img/decor.jpeg" >
+                <div class="overlay">
+                  <h5>Christmas Decorations Ideas</h5>
+                  <p>A bunch of Home Decor retails are running ridiculous decor sales. Love those cheerful wall decorations.It really makes a difference.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="img/jingle-bells.jpeg" >
+                <div class="overlay">
+                  <h5>Outdoor landscaping lights</h5>
+                  <p>Do you love those outdoor lights the neighbors pulled up? Home improvement stores offer a ton of cute Christmas light options with cartoon characters. Do you love Snoopy, Hello Kitty or Pokemon? </p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="display-3">Filter VS. Find</h1>
+                <p class="lead">
+                  What's the difference between the filter and find methods?
+                  Filter() works on the currently matched elements by reducing the set of matched elements to those that pass the function's test, by constructing new jQuery object with the subset of matching items.
+                  Find() will get the descendants of each element in the current set of matched elements, filtered by a selector, jQuery object, or element.
+
+                  <h5>Click on the buttons and see the different effects of Filter and Find.</h5>
+                </p>
+              </div>
+            </div>
+            <div class="row ">
+              <div class="col-md-6 list">
+                <ul class="examples">
+                  <li>red</li>
+                  <li>blue</li>
+                  <li>green</li>
+                  <li class="find-me"><strong>Find me</strong></li>
+                  <li>yellow</li>
+                  <li class="find-me"><strong>Find me</strong></li>
+                  <li class="find-me"><strong>Find me</strong></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 filter-btn">
+                <a class="btn btn-lg btn-success filter" href="#" role="button">Filter</a>
+                <a class="btn btn-lg btn-primary find" href="#" role="button">Find</a>
+              </div>
+            </div>
+          </div>
+
+        </main>
+<script src="vendor/js/jquery-3.2.1.min.js"></script>
+<script src="vendor/js/jquery-ui.min.js"></script>
+<script src="vendor/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
